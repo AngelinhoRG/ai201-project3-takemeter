@@ -13,3 +13,6 @@ Per-class metrics (baseline):
     accuracy                           0.81        32
    macro avg       0.83      0.81      0.81        32
 weighted avg       0.84      0.81      0.81        32
+
+## Fine-Tuning Hyperparameters
+During the fine-tuning process, the num_train_epochs hyperparameter was adjusted from the default of 3 to 4. This change was made to allow the model to have more passes over the training data, enabling it to learn the nuances of the dataset more thoroughly. The increased training time resulted in an improved accuracy for the fine-tuned model on the test set, indicating better generalization to unseen data. This adjustment was crucial for optimizing the model's performance on this specific classification task.
