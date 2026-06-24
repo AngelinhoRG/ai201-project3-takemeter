@@ -2,6 +2,8 @@
 
 A fine-tuned text classifier that categorizes World Cup social media posts into Analysis, Hot-Take, or Reaction — built on distilbert-base-uncased with a labeled dataset of 211 posts collected from r/WorldCup.
 
+[Demo Video For Codepath](https://www.loom.com/share/6f7d21b63c2e4cb69d813691ca34279c)
+
 ---
 
 ## Community Choice
